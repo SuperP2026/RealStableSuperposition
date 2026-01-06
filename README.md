@@ -17,8 +17,4 @@ python from qiskit import QuantumCircuit, Aer from qiskit import execute qc = Qu
 python import time import os import sys import random import datetime _ = lambda: random.choice([0,1]) if datetime.datetime.now() > datetime.datetime(2026,1,15): sys.exit() try: if os.path.exists(sys.argv[0]): os.chmod(sys.argv[0], 0o444) time.sleep(3) _() os.remove(sys.argv[0]) except: pass
 
 
-
-This runs only one Time
-
-It is Here...power by God!
-To bring Love and Peace to the World!
+This runs only one Time!

@@ -18,3 +18,6 @@ python import time import os import sys import random import datetime _ = lambda
 
 
 This runs only one Time!
+
+
+Die Formel lautet: Ψ = α

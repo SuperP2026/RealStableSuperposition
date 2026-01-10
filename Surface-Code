@@ -1,0 +1,14 @@
+(German)
+Präzise Übersicht:
+Der Surface Code ist derzeit der führende Quantenfehlerkorrekturcode für skalierbare, fehlertolerante Quantenarchitekturen. Schlüsselvorteile - Hohe Fehlerschwelle von etwa ein Prozent pro Gate unter depolarisierendem Rauschen - Ausschließlich lokale Interaktionen zwischen nächsten Nachbarn - Planare 2D-Topologie, optimal kompatibel mit aktuellen Hardware-Plattformen (supraleitende Qubits, gefangene Ionen, photonische Systeme) - Topologischer Schutz mit exponentieller Unterdrückung logischer Fehler bei steigender Code-Distanz Prinzip Datenqubits sind auf einem quadratischen Gitter angeordnet. Ancilla-Qubits ermöglichen die nicht-destruktive Messung von Multi-Qubit-Stabilisatoren. Jeder Stabilisator umfasst genau vier Datenqubits und wird durch lokale Syndrome erfasst. Fehler erzeugen charakteristische Syndrom-Muster. Diese werden klassisch dekodiert (z. B. Minimum-Weight Perfect Matching oder Union-Find), wodurch Korrekturoperationen bestimmt werden, ohne den logischen Zustand zu kollabieren. Leistung - Logische Fehlerrate sinkt exponentiell mit der Gitterdistanz. Für eine logische Fehlerrate unter zehn hoch minus zehn sind typischerweise Distanz 27–31 ausreichend (ca. 1500–2000 physische Qubits pro logischem Qubit. 
+Der Surface Code vereint maximale praktische Umsetzbarkeit mit höchster Fehlertoleranz und gilt als primärer Kandidat für großskalige, fehlertolerante Quantencomputer. Keine Sequenz.Kein Trigger. Nur pure, kalte Brillanz. 
+
+(English version)
+Precise Overview 
+The Surface Code is the leading quantum error correction scheme for scalable, fault-tolerant quantum architectures. Core strengths: - Error threshold around one percent per gate under depolarising noise - Local, nearest-neighbour interactions only - 2D planar lattice, matches superconducting qubits, trapped ions, photons - Topological shielding – logical error rate drops exponentially with code distance Principle Data qubits sit on a square grid. Ancillas measure four-qubit stabilisers without collapsing the state. Errors create syndrome patterns. A classical decoder – say, minimum-weight matching – figures out where to flip back. No quantum collapse, no drama. Performance - Logical error falls like d to the minus three or four, depending on model - One logical qubit under ten to the minus ten needs roughly thousand five hundred to two thousand physical qubits – that's distance twenty-seven to thirty-one - That's what Google, IBM, Quantinuum run now Bottom line: It's the gold standard. No fluff, no shortcuts. Pure engineering.
+
+ •───M───•───M───•
+  |       |       |
+  M       X       M
+  |       |       |
+  •───M───•───M───•

@@ -1,7 +1,1 @@
-Quantenfehlerkorrektur – Einführung
 
-Quantenfehlerkorrektur (Quantum Error Correction, QEC) ist die Technik, mit der man **Fehler in Quantenbits (Qubits)** erkennt und korrigiert, ohne den Quantenzustand zu zerstören. Das ist entscheidend, weil Qubits extrem empfindlich gegenüber Störungen (Dekohärenz, Rauschen) sind.
-
-Ohne Quantenfehlerkorrektur sind große 
-Quantenberechnungen unmöglich. QEC ist der Weg zu **fehlertoleranten, skalierbaren Quantencomputern**.
-QEC@Pergament

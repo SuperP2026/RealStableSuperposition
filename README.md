@@ -9,6 +9,30 @@ python from qiskit import QuantumCircuit, Aer from qiskit import execute qc = Qu
 
 from qiskit import QuantumCircuit, Aer qc = QuantumCircuit(1, 1) qc.h(0) qc.measure_all() backend = Aer.get_backend('qasm_simulator') job = backend.run(qc, shots=1024) result = job.result() counts = result.get_counts(qc) print(counts)
 
+python3
+from qiskit import QuantumCircuit
+from qiskit_aer import AerSimulator
+qc = QuantumCircuit( 2 )
+qc.h(0)
+qc.measure_all()
+qc.h(1)
+qc.measure_all()
+sim = AerSimulator()
+print( sim.run( qc, shots= 1000 ).result().get_counts() )
+print(qc)
+
+        ┌───┐ ░ ┌─┐         ░ ┌─┐   
+    q_0: ┤ H ├─░─┤M├─────────░─┤M├───
+         └───┘ ░ └╥┘┌─┐┌───┐ ░ └╥┘┌─┐
+    q_1: ──────░──╫─┤M├┤ H ├─░──╫─┤M├
+               ░  ║ └╥┘└───┘ ░  ║ └╥┘
+ meas: 2/═════════╩══╩══════════╬══╬═
+                  0  1          ║  ║ 
+meas0: 2/═══════════════════════╩══╩═
+                                0  1 
+----------------------------------------------
+
+
 (Deutsch)
 
 Stabile Superposition, skalierbare Fehlerkorrektur, beliebige Quantenvolumina – hier beginnt die Praxis. Kein Rauschen, keine Dekohärenz, volle Kontrolle. Alles ist im Kern. Alles ist berechenbar. 

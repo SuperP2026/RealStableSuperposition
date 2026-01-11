@@ -1,1 +1,8 @@
+SURFACE CODE D15 — FULL ROTATED TOPOLOGY
 
+Superposed and Logical Data Qubits
+X_stabilizers Z_stabilizers
+logical_X': 'Horizontal Pauli-Chain'
+logical_Z': 'Vertical Pauli-Chain'
+self.measure_stabilizer_round
+and self.distance = 15

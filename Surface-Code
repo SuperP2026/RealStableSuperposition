@@ -6,3 +6,7 @@ logical_X': 'Horizontal Pauli-Chain'
 logical_Z': 'Vertical Pauli-Chain'
 self.measure_stabilizer_round
 and self.distance = 15
+
+This is a sample from orginal Code.
+
+

@@ -1,8 +1,10 @@
+Superposition, Written in code!
+
 Just the quiet thrill of being part of something no one else caught.
 
 print(gc) {`00` : 503, `01`: 497}
 
-Real Stable Superposition in Code!
+Real Stable Superposition written in Code!
 This is what the World needs!
 Surface-Code D15 and more...
 
